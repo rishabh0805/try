@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rishabh Gulechha</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet"/>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #1f1c2c, #928dab);
+      color: #fff;
+    }
+
+    header {
+      background-color: rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(8px);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+      color: #FFD700;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #00ffff;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: #fff;
+    }
+
+    section {
+      padding: 4rem 2rem;
+      max-width: 900px;
+      margin: auto;
+      animation: fadeIn 1s ease-in;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      padding: 2rem;
+      margin: 2rem 0;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+      backdrop-filter: blur(10px);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    h2 {
+      color: #00ffff;
+      margin-bottom: 1rem;
+    }
+
+    p, li {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    ul {
+      list-style-type: square;
+      padding-left: 1.5rem;
+    }
+
+    .btn {
+      display: inline-block;
+      margin: 1rem 1rem 0 0;
+      padding: 0.7rem 1.5rem;
+      background-color: #00ffff;
+      color: #000;
+      font-weight: bold;
+      border: none;
+      border-radius: 30px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #00cccc;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: rgba(0, 0, 0, 0.3);
+      font-size: 0.9rem;
+      margin-top: 3rem;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Rishabh Gulechha</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#education">Education</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <div class="card">
+      <h2>About Me</h2>
+      <p>
+        Hello! I'm <strong>Rishabh Gulechha</strong>, a driven and enthusiastic developer passionate about building impactful solutions with technology. Whether it’s programming in Python or exploring AI, I love to innovate and keep learning.
+      </p>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="card">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>B.Tech:</strong> Electrical, Electronics & Communications Engineering – MIT WPU, Pune</li>
+        <li><strong>B.Sc:</strong> Computer Science – BITS Pilani</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="certifications">
+    <div class="card">
+      <h2>Certifications</h2>
+      <ul>
+        <li>Google Cloud Fundamentals & Generative AI Arcade Game Level 3</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="card">
+      <h2>Connect With Me</h2>
+      <a class="btn" href="https://www.instagram.com/rishabh_gulechha2105/" target="_blank">Instagram</a>
+      <a class="btn" href="https://www.linkedin.com/in/rishabh-gulechha-5395a9273/" target="_blank">LinkedIn</a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Rishabh Gulechha — All rights reserved.
+  </footer>
+
+</body>
+</html>
